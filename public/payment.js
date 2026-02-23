@@ -9,7 +9,7 @@ const PAYMENT_CONFIG = {
     amount: '2.99',
     currency: 'USD',
     appName: 'FairPlay Check',
-    paypalClientId: 'YOUR_PAYPAL_CLIENT_ID' // Replace with your actual Client ID
+    paypalClientId: 'AXKfXcjE0dxuocGjYsMkvlt563AMyZinEqGpr0Zjv4BWDkcXHDJfPOxFmCzhYcTk0Iiv9kSwSBmi7kiS'
 };
 
 // Buyer Information Storage
