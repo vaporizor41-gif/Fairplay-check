@@ -381,12 +381,12 @@
                     <p class="payment-methods-title">Choose Your Payment Method:</p>
                     
                     <!-- PayPal Button -->
-                    <button class="btn btn-payment btn-paypal" onclick="initPayPalPayment()">
+                    <button type="button" class="btn btn-payment btn-paypal" onclick="initPayPalPayment(); return false;">
                         <span class="payment-icon">🅿️</span> Pay with PayPal
                     </button>
                     
                     <!-- Visa/Mastercard Button -->
-                    <button class="btn btn-payment btn-card" onclick="initCardPayment()">
+                    <button type="button" class="btn btn-payment btn-card" onclick="initCardPayment(); return false;">
                         <span class="payment-icon">💳</span> Visa / Mastercard
                     </button>
                 </div>
